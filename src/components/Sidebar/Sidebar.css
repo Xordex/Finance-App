@@ -58,3 +58,25 @@
         width: 12vw;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .sidebar {
+        width: 0vw;
+        visibility: hidden;
+    }
+
+    .opensidebar {
+        width: 50vw;
+        z-index: 100;
+        visibility: visible;
+    }
+
+    .btn_sidebar {
+        position: absolute;
+        left: 30px;
+        bottom: 80px;
+        visibility: visible;
+        z-index: 1000;
+        width: 50px;
+    }
+}

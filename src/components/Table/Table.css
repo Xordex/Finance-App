@@ -31,3 +31,14 @@
         margin-bottom: 3%;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .table_container {
+        padding: 5% 8% 5% 3%;
+    }
+
+    .table_container table {
+        font-size: 0.8rem;
+        margin-top: 1rem;
+    }
+}
