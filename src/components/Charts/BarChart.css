@@ -1,0 +1,37 @@
+.bar_container {
+    background-color: #ffffffb5;
+    margin: 0 3%;
+    border-radius: 10px;
+    padding: 2% 30px 3%;
+    color: black;
+}
+
+.dark .bar_container {
+    background-color: rgba(0, 0, 0, 0.624);
+    color: white;
+}
+
+.recharts-responsive-container {
+    min-height: 400px;
+    margin: 1% 0;
+}
+
+.pie_container {
+    margin-top: 2%;
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .bar_container {
+        width: 75%;
+        max-height: 400px;
+        margin-right: 1%;
+    }
+
+    .pie_container {
+        width: 25%;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 3%;
+    }
+}

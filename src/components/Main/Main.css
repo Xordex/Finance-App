@@ -1,0 +1,30 @@
+.main_container {
+    margin-left: 8vw;
+    transition-duration: 0.2s;
+    min-height: 100vh;
+    background-color: #F1F5F9;
+}
+
+.dark .main_container {
+    background-color: #CBD5E1;
+}
+
+.openMenucontainer {
+    margin-left: 16vw;
+}
+
+@media only screen and (min-width: 1200px) {
+    .charts_container {
+        display: flex;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .main_container {
+        margin-left: 6vw;
+    }
+
+    .openMenucontainer {
+        margin-left: 12vw;
+    }
+}

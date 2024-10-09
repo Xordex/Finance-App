@@ -1,0 +1,53 @@
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5% 3%;
+    background-color: #CBD5E1;
+}
+
+.dark .header_container {
+    background-color: #334155;
+}
+
+.header_container button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    display: flex;
+}
+
+.header_container button:hover {
+    background-color: rgb(220, 212, 203);
+    cursor: pointer;
+}
+
+.header_container .right_header {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.header_container .user_profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user_profile svg {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.user_profile svg:hover {
+    background-color: rgb(220, 212, 203);
+    cursor: pointer;
+}
+
+.user_profile h2 {
+    font-size: 20px;
+    font-weight: 400;
+}

@@ -1,0 +1,9 @@
+.title_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title_container svg {
+    font-size: 26px;
+}

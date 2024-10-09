@@ -1,0 +1,27 @@
+.menu_icon {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    color: rgba(35, 35, 35, 0.792);
+    padding: 1.5rem;
+    border-radius: 5px;
+    transition-duration: 0.2s;
+}
+
+.menu_icon:hover {
+    color: black;
+    background-color: rgb(38, 126, 126);
+}
+
+.menu_icon svg {
+    font-size: 1.5rem;
+}
+
+.dark .menu_icon {
+    color: rgba(255, 255, 255, 0.798);
+}
+
+.dark .menu_icon:hover {
+    color: white;
+}

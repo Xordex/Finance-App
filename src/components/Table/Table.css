@@ -1,0 +1,33 @@
+.table_container {
+    margin-top: 2%;
+    padding-bottom: 2%;
+}
+
+.table_container tr {
+    display: flex;
+    margin-top: 2%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.646);
+    padding-bottom: 2%;
+}
+
+.table_container tr:last-child {
+    border: none;
+}
+
+.table_container th,
+.table_container td {
+    text-align: center;
+    width: 25%;
+}
+
+.table_container table {
+    width: 100%;
+}
+
+@media only screen and (min-width: 1200px) {
+    .table_container {
+        width: 75%;
+        margin-top: 1%;
+        margin-bottom: 3%;
+    }
+}
